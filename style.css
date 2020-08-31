@@ -1,0 +1,78 @@
+/* Reset CSS */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("bg/4.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Arial;
+}
+
+.container{
+
+}
+
+ nav{
+	width: 80%;
+	margin-left: 170px;
+ }
+
+ ul{
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+ ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background: #0008;
+	border: 1px dotted #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	position: relative;
+
+	
+}
+
+ ul li a{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+ ul li a:hover{
+	background: green;
+	transition: .9s;
+}
+
+ul li ul{
+	display: none;
+
+}
+
+ul li:hover >ul {
+	display: block;
+}
+
+ul li ul li a:hover{
+	background: #1A3D7E;
+}
+
+ ul li ul li ul{
+	margin-left: 200px;
+	top: 0;
+	position: absolute;
+
+}
+
+ul ul ul li a:hover  {
+	background: #6C849A;
+}
